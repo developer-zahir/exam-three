@@ -1,0 +1,73 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?09ea1558bd131a64811a74a289b35015") format("truetype"),
+url("./flaticon.woff?09ea1558bd131a64811a74a289b35015") format("woff"),
+url("./flaticon.woff2?09ea1558bd131a64811a74a289b35015") format("woff2"),
+url("./flaticon.eot?09ea1558bd131a64811a74a289b35015#iefix") format("embedded-opentype"),
+url("./flaticon.svg?09ea1558bd131a64811a74a289b35015#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "lab-tool": "\f101",
+    "laboratory": "\f102",
+    "flask": "\f103",
+    "cells": "\f104",
+    "comment": "\f105",
+    "microscope-1": "\f106",
+    "diabetes-test": "\f107",
+    "lungs": "\f108",
+    "heart": "\f109",
+    "right-arrow": "\f10a",
+    "check": "\f10b",
+    "menu": "\f10c",
+);
+
+.flaticon-lab-tool:before {
+    content: map-get($flaticon-map, "lab-tool");
+}
+.flaticon-laboratory:before {
+    content: map-get($flaticon-map, "laboratory");
+}
+.flaticon-flask:before {
+    content: map-get($flaticon-map, "flask");
+}
+.flaticon-cells:before {
+    content: map-get($flaticon-map, "cells");
+}
+.flaticon-comment:before {
+    content: map-get($flaticon-map, "comment");
+}
+.flaticon-microscope-1:before {
+    content: map-get($flaticon-map, "microscope-1");
+}
+.flaticon-diabetes-test:before {
+    content: map-get($flaticon-map, "diabetes-test");
+}
+.flaticon-lungs:before {
+    content: map-get($flaticon-map, "lungs");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon-map, "heart");
+}
+.flaticon-right-arrow:before {
+    content: map-get($flaticon-map, "right-arrow");
+}
+.flaticon-check:before {
+    content: map-get($flaticon-map, "check");
+}
+.flaticon-menu:before {
+    content: map-get($flaticon-map, "menu");
+}
