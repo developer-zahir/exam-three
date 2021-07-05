@@ -1,4 +1,183 @@
-body {
-  font-family: 'Roboto', sans-serif;
+@media (max-width: 1399.98px) {
+  .our__latest__news__section article .news__content h2 a {
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+  .team__section .team__image {
+    width: 251px;
+    height: 251px;
+  }
+  .service__section .s__item:nth-child(odd) .services__item {
+    top: 0;
+    position: static;
+  }
+  .service__section {
+    position: static;
+    top: 0;
+    padding: 0 0 90px 0;
+  }
+  .hero__section .slider__caption h1 {
+    font-size: 3rem;
+  }
+  .hero__section .slider__caption .slider__caption__inner {
+    width: 90%;
+  }
+  .service__section .services__item {
+    margin: 11px 0;
+  }
+  .shape__design .custom-shape-divider-bottom-1625469687 {
+    bottom: 85px;
+  }
+  .about__section .about__right__section h2 {
+    color: #222222eb;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.7rem;
+  }
+  .about__section .about__right__section p {
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+  .about__section .about__left__section .small__image {
+    bottom: -13%;
+    right: -12%;
+  }
+  .main__service__section .main__secvice__item .main__service__containt h2 {
+    font-size: 1.2rem;
+  }
+  .main__service__section .main__secvice__item .main__service__icon {
+    -ms-flex-preferred-size: 211px;
+        flex-basis: 211px;
+  }
+}
+
+@media all and (max-width: 1255px) {
+  .shape__design .custom-shape-divider-bottom-1625469687 {
+    bottom: 8rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .team__section .team__item {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .testiomonial__section #testimonial__section__slider .testimonial__item {
+    width: 92%;
+    padding: 80px 28px;
+  }
+  .contact__us__section .contact__us__right {
+    margin-top: 68px;
+  }
+  .about__section .about__right__section h2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .about__section .about__right__section p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+  .why__choose__us__section .why__choose__item__content h2 {
+    font-size: 1.1rem;
+  }
+  .why__choose__us__section .section__title > p {
+    padding: 0;
+  }
+  .why__choose__us__section .why__choose__item__content p {
+    font-size: .9rem;
+  }
+  .why__choose__us__section .why__choose__item .why__choose__icon span {
+    font-size: 1.6rem;
+    margin-top: 0px;
+    width: 25px;
+    height: 25px;
+    line-height: 18px;
+  }
+  .why__choose__us__section .section__title h2 {
+    font-size: 1.2rem;
+    line-height: 24px;
+  }
+  .why__choose__us__section .section__title > p {
+    font-size: .9rem;
+  }
+  .why__choose__us__section .why__choose__us__right {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 1168px) {
+  .testiomonial__section #testimonial__section__slider .testimonial__item {
+    width: 91%;
+    margin: 60px auto;
+    padding: 60px 40px;
+    border-radius: 10px;
+  }
+  .testiomonial__section #testimonial__section__slider .testimonial__item p {
+    -webkit-animation: none;
+            animation: none;
+  }
+  .team__section .team__image {
+    width: 251px;
+    height: 251px;
+    margin: auto;
+  }
+  .testiomonial__section #testimonial__section__slider .carousel-inner {
+    width: 100%;
+  }
+  .testiomonial__section #testimonial__section__slider .testimonial__slider__controler:hover {
+    background: #000;
+  }
+}
+
+@media all and (max-width: 1170px) {
+  .shape__design .custom-shape-divider-bottom-1625469687 {
+    bottom: 10.4rem;
+  }
+}
+
+@media (max-width: 992.98px) {
+  .shape__design {
+    display: none;
+  }
+  .hero__section .slider__caption h1 {
+    font-size: 2rem;
+  }
+  .hero__section {
+    height: auto !important;
+  }
+  .service__section {
+    padding: 90px 0;
+  }
+  .main__service__section .main__secvice__item .main__service__icon span {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    line-height: 108px;
+    font-size: 2.6rem;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    margin-left: 14px;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .fore__image__section .image__inner {
+    text-align: center;
+    margin: 10px -2px;
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  .fore__image__section .image__inner img {
+    width: 100px;
+  }
+  .footer__item {
+    margin-top: 28px;
+  }
+  .fore__image__section {
+    padding: 78px 0;
+    background: #fafaff;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

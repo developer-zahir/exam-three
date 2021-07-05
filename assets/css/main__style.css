@@ -83,6 +83,16 @@ nav ul > li > a:hover {
   color: #12a3ff !important;
 }
 
+nav ul > li > a span {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+nav ul > li #navbarDropdown {
+  color: #666;
+  padding: 0;
+}
+
 nav ul > li .active {
   color: #12a3ff !important;
 }
@@ -1698,6 +1708,7 @@ footer {
   background-repeat: no-repeat;
   padding: 100px 0;
   padding-bottom: 0 !important;
+  position: relative;
 }
 
 footer .footer__item img {
@@ -1796,9 +1807,9 @@ footer .footer__item ul > li {
 
 footer .footer__item ul > li::before {
   content: '\f101';
-  font-family: "font awesome 5 free";
+  font-family: 'font awesome 5 free';
   font-weight: 600;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin-right: 4px;
 }
 
@@ -1924,8 +1935,8 @@ footer .footer__bottom p a {
   text-transform: uppercase;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 footer .footer__bottom p a:hover {
@@ -1935,5 +1946,27 @@ footer .footer__bottom p a:hover {
 #mynav {
   background: #fff;
   z-index: 99;
+}
+
+#scroll__top__btn {
+  display: inline-block;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #05152f;
+  color: #ffff;
+  text-align: center;
+  line-height: 34px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  z-index: 55;
+}
+
+#scroll__top__btn:hover {
+  color: #05152f;
+  background: #fff;
 }
 /*# sourceMappingURL=main__style.css.map */
