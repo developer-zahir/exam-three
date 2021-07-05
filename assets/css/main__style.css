@@ -1790,6 +1790,18 @@ footer .footer__item ul {
   list-style: none;
 }
 
+footer .footer__item ul > li {
+  position: relative;
+}
+
+footer .footer__item ul > li::before {
+  content: '\f101';
+  font-family: "font awesome 5 free";
+  font-weight: 600;
+  font-size: .8rem;
+  margin-right: 4px;
+}
+
 footer .footer__item ul > li a {
   text-decoration: none;
   text-transform: capitalize;
