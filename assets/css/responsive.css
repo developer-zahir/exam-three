@@ -249,6 +249,9 @@
   .header__top p {
     font-size: 0.8rem;
   }
+  nav .nav__right {
+    overflow: hidden !important;
+  }
   nav ul > li a {
     padding: 10px 22px !important;
     border-bottom: 1px solid rgba(221, 221, 221, 0.459);
@@ -265,8 +268,23 @@
     position: absolute;
     width: 100%;
   }
+  nav #search:checked + .nav__right span label {
+    color: #12a3ff;
+  }
+  nav #search:checked + .nav__right span label .search__box {
+    width: 80%;
+    top: -15%;
+    left: 20%;
+  }
+  nav .nav__right .search__box {
+    width: 80%;
+    top: -15%;
+    left: 20%;
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
   nav .dropdown-toggle::after {
-    top: 52px;
+    top: 8px;
     right: 0;
   }
 }

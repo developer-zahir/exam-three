@@ -246,6 +246,9 @@
     }
 
     nav {
+        .nav__right {
+            overflow: hidden !important;
+        }
         ul {
             > li {
                 a {
@@ -265,9 +268,23 @@
                 }
             }
         }
+        #search:checked + .nav__right span label {
+            color: #12a3ff;
+            .search__box {
+                width: 80%;
+                top: -15%;
+                left: 20%;
+            }
+        }
+        .nav__right .search__box {
+            width: 80%;
+            top: -15%;
+            left: 20%;
+            transform: translateY(100px);
+        }
     }
     nav .dropdown-toggle::after {
-        top: 52px;
+        top: 8px;
         right: 0;
     }
 }
