@@ -249,13 +249,16 @@
         .nav__right {
             overflow: hidden !important;
         }
+        .megaaa{
+            display: none;
+        }
         ul {
             > li {
                 a {
                     padding: 10px 22px !important;
                     border-bottom: 1px solid rgba(221, 221, 221, 0.459);
                 }
-                .dropdown-menu.shadow-sm.show {
+               .dropdown-menu.shadow-sm.show {
                     display: block !important;
                     transform: translate(0) !important;
                 }

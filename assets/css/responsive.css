@@ -252,6 +252,9 @@
   nav .nav__right {
     overflow: hidden !important;
   }
+  nav .megaaa {
+    display: none;
+  }
   nav ul > li a {
     padding: 10px 22px !important;
     border-bottom: 1px solid rgba(221, 221, 221, 0.459);
