@@ -124,14 +124,15 @@ nav {
                 font-weight: 500;
                 transition: 0.4s;
                 position: relative;
-                &:hover {
-                    color: #12a3ff !important;
-                }
+
                 padding: 40px 22px !important;
                 span {
                     font-family: $roboto;
                     text-transform: uppercase;
                 }
+            }
+            &:hover > a {
+                color: #12a3ff !important;
             }
             #navbarDropdown {
                 color: #666;
@@ -244,7 +245,30 @@ nav {
 }
 /*-- hero__section start--*/
 .hero__section {
-    height: 100vh;
+    position: relative;
+    height: auto;
+    .custom-shape-divider-bottom-1625469687 {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: 1;
+        bottom: 0;
+        pointer-events: none;
+    }
+    .custom-shape-divider-bottom-1625469687 svg {
+        position: relative;
+        display: block;
+        width: calc(136% + 1.3px);
+        height: 163px;
+    }
+
+    .custom-shape-divider-bottom-1625469687 .shape-fill {
+        fill: #fff;
+    }
+
     #carouselExampleCaptions {
         height: 100% !important;
         .carousel-inner {
@@ -323,31 +347,7 @@ nav {
         }
     }
 }
-/*-- shape__design  start--*/
-.shape__design {
-    position: relative;
-    .custom-shape-divider-bottom-1625469687 {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
-        z-index: 1;
-    }
 
-    .custom-shape-divider-bottom-1625469687 svg {
-        position: relative;
-        display: block;
-        width: calc(136% + 1.3px);
-        height: 163px;
-    }
-
-    .custom-shape-divider-bottom-1625469687 .shape-fill {
-        fill: #ffffff;
-    }
-}
 /*-- service section start--*/
 .service__section {
     position: relative;
@@ -1471,7 +1471,7 @@ footer {
     background: #fff;
     z-index: 99;
 }
-#scroll__top__btn{
+#scroll__top__btn {
     display: inline-block;
     width: 34px;
     height: 34px;
@@ -1483,9 +1483,9 @@ footer {
     position: fixed;
     right: 40px;
     bottom: 40px;
-    transition: .4s;
+    transition: 0.4s;
     z-index: 55;
-    &:hover{
+    &:hover {
         color: #05152f;
         background: #fff;
     }

@@ -79,13 +79,13 @@ nav ul > li > a {
   padding: 40px 22px !important;
 }
 
-nav ul > li > a:hover {
-  color: #12a3ff !important;
-}
-
 nav ul > li > a span {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
+}
+
+nav ul > li:hover > a {
+  color: #12a3ff !important;
 }
 
 nav ul > li #navbarDropdown {
@@ -224,7 +224,32 @@ nav #search:checked + .nav__right span label .search__box {
 
 /*-- hero__section start--*/
 .hero__section {
-  height: 100vh;
+  position: relative;
+  height: auto;
+}
+
+.hero__section .custom-shape-divider-bottom-1625469687 {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  z-index: 1;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.hero__section .custom-shape-divider-bottom-1625469687 svg {
+  position: relative;
+  display: block;
+  width: calc(136% + 1.3px);
+  height: 163px;
+}
+
+.hero__section .custom-shape-divider-bottom-1625469687 .shape-fill {
+  fill: #fff;
 }
 
 .hero__section #carouselExampleCaptions {
@@ -358,34 +383,6 @@ nav #search:checked + .nav__right span label .search__box {
 .hero__section .slider__controler:hover {
   background: #4276ff;
   color: #fff;
-}
-
-/*-- shape__design  start--*/
-.shape__design {
-  position: relative;
-}
-
-.shape__design .custom-shape-divider-bottom-1625469687 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  z-index: 1;
-}
-
-.shape__design .custom-shape-divider-bottom-1625469687 svg {
-  position: relative;
-  display: block;
-  width: calc(136% + 1.3px);
-  height: 163px;
-}
-
-.shape__design .custom-shape-divider-bottom-1625469687 .shape-fill {
-  fill: #ffffff;
 }
 
 /*-- service section start--*/
@@ -1960,8 +1957,8 @@ footer .footer__bottom p a:hover {
   position: fixed;
   right: 40px;
   bottom: 40px;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
   z-index: 55;
 }
 
