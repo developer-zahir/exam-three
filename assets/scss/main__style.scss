@@ -385,6 +385,17 @@ nav {
         color: #0fe7f9;
         background: $color__two;
         transition: 0.4s;
+        position: relative;
+        &::before {
+            content: '';
+            width: 16px;
+            height: 16px;
+            background: #0fe7f9;
+            border-radius: 50%;
+            position: absolute;
+            top: -4px;
+            right: 12px;
+        }
     }
     h2 {
         text-transform: capitalize;

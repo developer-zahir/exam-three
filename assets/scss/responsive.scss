@@ -290,6 +290,16 @@
         top: 8px;
         right: 0;
     }
+    .about__section .about__left__section {
+        padding-right: 20px;
+        width: 76%;
+        margin: auto;
+    }
+    .why__choose__us__section .why__choose__us__right {
+        margin: 0;
+        width: 75%;
+        margin: auto;
+    }
 }
 
 // Small devices (landscape phones, less than 768px)
@@ -412,6 +422,9 @@
     .hero__section .slider__caption h1 {
         margin-top: 60px;
     }
+    .service__section .services__item {
+        margin: 17px 0;
+    }
 }
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -437,6 +450,21 @@
         bottom: -12%;
         right: -5%;
         width: 200px;
+    }
+    .about__section .about__left__section .small__image {
+        bottom: -12%;
+        right: -5%;
+        width: 200px;
+        height: 200px;
+    }
+    .about__section .about__left__section {
+        padding-right: 0;
+    }
+    .hero__section .slider__controler {
+        font-size: 1.3rem;
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
     }
 }
 //media query

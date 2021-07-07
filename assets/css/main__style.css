@@ -429,6 +429,18 @@ nav #search:checked + .nav__right span label .search__box {
   background: #fff;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  position: relative;
+}
+
+.service__section .services__icon::before {
+  content: '';
+  width: 16px;
+  height: 16px;
+  background: #0fe7f9;
+  border-radius: 50%;
+  position: absolute;
+  top: -4px;
+  right: 12px;
 }
 
 .service__section h2 {
