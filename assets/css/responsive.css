@@ -438,6 +438,9 @@
     width: 88%;
     margin: auto;
   }
+  .col-xxl-3.col-xl-3.col-lg-3.col-md-4.col-sm-6.f_item.xs.dd {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -503,12 +506,6 @@
   .about__section .about__right__section p {
     font-size: 0.9rem;
     line-height: 1.6rem;
-  }
-}
-
-@media all and (max-width: 446px) {
-  .mobile__footer__item__hidden {
-    display: none;
   }
 }
 
@@ -578,9 +575,6 @@
     width: 161px;
     margin-right: 30px;
     border-radius: 5px;
-  }
-  .mobile__footer__item__hidden {
-    display: block;
   }
 }
 
