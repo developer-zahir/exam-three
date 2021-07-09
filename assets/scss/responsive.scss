@@ -449,6 +449,10 @@
 }
 // X-Small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
+    .hero__section .carousel > button {
+        pointer-events: none;
+        display: none;
+    }
     footer {
         .xs {
             width: 50%;
